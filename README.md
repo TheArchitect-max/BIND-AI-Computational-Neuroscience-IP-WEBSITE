@@ -6,7 +6,7 @@ This repository contains only the website presentation, its styles and original 
 
 ## Intended public page
 
-https://thearchitect-max.github.io/BIND-AI-Computational-Neuroscience-IP/
+https://thearchitect-max.github.io/BIND-AI-Computational-Neuroscience-IP-WEBSITE/
 
 The site presents developed software, bounded internal software-validation history, candidate development scope and potential acquisition relevance without exposing reconstructive implementation details.
 
