@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 840" fill="none" role="img" aria-label="Abstract conceptual neural-inspired filaments, not an anatomical or technical diagram">
+<defs>
+ <radialGradient id="wash"><stop stop-color="#385b4b" stop-opacity=".5"/><stop offset=".5" stop-color="#1f463c" stop-opacity=".23"/><stop offset="1" stop-color="#080e13" stop-opacity="0"/></radialGradient>
+ <radialGradient id="core"><stop stop-color="#fff2d3" stop-opacity=".92"/><stop offset=".28" stop-color="#d7dfb4" stop-opacity=".71"/><stop offset=".7" stop-color="#6fa98b" stop-opacity=".25"/><stop offset="1" stop-color="#6fa98b" stop-opacity="0"/></radialGradient>
+ <linearGradient id="strand" x1="125" y1="200" x2="825" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#263c35" stop-opacity=".1"/><stop offset=".33" stop-color="#8dc9aa" stop-opacity=".48"/><stop offset=".65" stop-color="#d4cf9d" stop-opacity=".7"/><stop offset="1" stop-color="#496e60" stop-opacity=".05"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="25"/></filter>
+ <filter id="halo"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<ellipse cx="493" cy="422" rx="374" ry="362" fill="url(#wash)"/>
+<g opacity=".2" stroke="#88c3a7" stroke-width=".8">
+ <ellipse cx="490" cy="419" rx="250" ry="247" stroke-dasharray="2 12"/>
+ <ellipse cx="492" cy="419" rx="317" ry="312" stroke-dasharray="1 17"/>
+</g>
+<g stroke="url(#strand)" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M458 404C401 377 378 329 339 301S254 274 194 211M339 301C332 259 322 224 292 188S272 122 258 100M339 301C294 315 256 339 226 369S154 398 120 406" stroke-width="3"/>
+ <path d="M464 419C422 463 400 499 357 521S289 572 249 640M357 521C353 572 365 613 396 651S418 704 432 744M357 521C305 502 264 504 224 522S153 556 119 568" stroke-width="2.8"/>
+ <path d="M492 387C499 321 529 293 573 259S662 223 723 184M573 259C569 226 578 192 601 163S624 106 630 88M573 259C627 284 655 325 686 352S747 373 826 385" stroke-width="3"/>
+ <path d="M516 418C572 426 628 457 656 506S725 581 799 603M656 506C657 554 636 603 613 629S586 693 593 765M656 506C699 483 738 470 783 475S840 482 875 499" stroke-width="3.2"/>
+ <path d="M463 383C453 325 451 289 430 251S409 177 419 116M430 251C388 228 359 188 347 141M489 447C489 516 504 557 532 597S547 670 535 724" stroke-width="1.7" opacity=".74"/>
+ <path d="M194 211C165 195 140 161 123 135M292 188C288 151 309 123 314 87M226 369C182 341 149 337 100 351M249 640C226 685 190 704 165 729M396 651C387 701 369 731 353 773M723 184C769 150 799 121 813 87M686 352C716 325 763 314 791 290M799 603C829 618 849 651 862 689M593 765C572 784 556 803 547 822" stroke-width="1.1" opacity=".52"/>
+</g>
+<g fill="#b9d4b6" opacity=".63">
+ <circle cx="339" cy="301" r="4"/><circle cx="357" cy="521" r="3.5"/><circle cx="573" cy="259" r="3.6"/><circle cx="656" cy="506" r="4.5"/><circle cx="430" cy="251" r="2.5"/><circle cx="532" cy="597" r="2.6"/><circle cx="686" cy="352" r="2.1"/><circle cx="292" cy="188" r="2.3"/><circle cx="249" cy="640" r="2.3"/><circle cx="723" cy="184" r="2.3"/>
+</g>
+<g opacity=".35" filter="url(#halo)" fill="#afdeaa">
+ <circle cx="339" cy="301" r="13"/><circle cx="357" cy="521" r="13"/><circle cx="573" cy="259" r="13"/><circle cx="656" cy="506" r="15"/>
+</g>
+<circle cx="491" cy="407" r="100" fill="url(#core)" filter="url(#blur)" opacity=".84"/>
+<ellipse cx="491" cy="411" rx="66" ry="73" fill="url(#core)" opacity=".72"/>
+<path d="M469 359C510 348 539 378 548 410C550 448 521 475 483 467C453 462 432 432 437 404C442 385 450 366 469 359Z" stroke="#c5d7ae" stroke-opacity=".58" stroke-width="1.6"/>
+<circle cx="487" cy="410" r="21" fill="url(#core)"/>
+<circle cx="486" cy="410" r="4.5" fill="#f5e7c0" opacity=".84"/>
+<g fill="#8fbda1" opacity=".42"><circle cx="119" cy="568" r="2"/><circle cx="826" cy="385" r="2"/><circle cx="258" cy="100" r="1.5"/><circle cx="593" cy="765" r="2"/><circle cx="875" cy="499" r="1.6"/><circle cx="353" cy="773" r="1.8"/><circle cx="813" cy="87" r="1.8"/></g>
+</svg>
